@@ -63,7 +63,7 @@ img {
 
 footer {
   background-color: rgb(1, 9, 19);
-  height: 100px;
+  height: 130px;
   position: relative;
 }
 
@@ -81,11 +81,12 @@ footer {
 }
 
 .links-box {
+  font-size: 15px;
   border: 1px solid rgb(2, 255, 242);
   border-radius: 5px;
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
-  width: 40%;
+  width: 60%;
   position: absolute;
   bottom: 10px;
   left: 10px;
@@ -216,6 +217,11 @@ footer {
     font-size: 24px;
     width: 200px;
     padding: 10px;
+  }
+
+  .links-box {
+    width: 40%;
+    max-width: 400px;
   }
 
   .show {
