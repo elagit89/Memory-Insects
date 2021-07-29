@@ -1,15 +1,13 @@
 .game {
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  width: 100%;
+  background-color: black;
 }
 
 img {
   width: 100%;
 }
 
-.game {
- width: 100%;
- background-color: black;
-}
 
 .leaves {
   width: 100%;
@@ -149,7 +147,7 @@ footer {
 }
 
 .result {
-  font-size: 26px;
+  font-size: 16px;
   font-weight: bold;
   color: rgb(2, 255, 242);
   border: 2px solid rgb(2, 255, 242);
@@ -164,7 +162,7 @@ footer {
 
 .gameboard {
   width: 270px;
-  margin: 0px auto 40px auto;
+  margin: 0px auto 47px auto;
   overflow: auto;
 }
 
@@ -187,6 +185,11 @@ footer {
   .butterfly {
     width: 350px;
   }
+
+  .result {
+    font-size: 20px;
+  }
+
 }
 
 
@@ -220,7 +223,7 @@ footer {
   }
 
   .links-box {
-    width: 40%;
+    width: 50%;
     max-width: 400px;
   }
 
@@ -250,11 +253,12 @@ footer {
 
   .result {
     margin-bottom: 70px;
+    font-size: 24px;
   }
 
   .gameboard {
     width: 600px;
-    margin-bottom: 38px;
+    margin-bottom: 39px;
     
   }
 
@@ -312,6 +316,10 @@ footer {
     width: 200px;
     height: 200px;
     margin: 8px;
+  }
+
+  .result {
+    font-size: 26px;
   }
 }
 
